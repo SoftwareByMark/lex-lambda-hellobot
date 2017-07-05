@@ -13,6 +13,7 @@ Here's what you'll need to use this SDK:
 * Java 8
 * Maven 3+
 * The Lex Lambda SDK installed locally (see [here](https://github.com/softwarebymark/lex-lambda-sdk))
+* AWS Command Line Interface (CLI) installed locally (optional)
 
 ### Building
 
@@ -40,7 +41,7 @@ you will manually upload to Lambda when your first create your function.
 ### Updating
 
 After you have created the Lambda function, you can subsequently update the Lambda function JAR file directly from Maven
-without having to log into the AWS Console!
+without having to log into the AWS Console!  Note: you must have the AWS CLI installed locally for this to work.
 
 To update the Lambda function, package up the code and execute the Exec plugin:
 
